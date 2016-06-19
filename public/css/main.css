@@ -1,0 +1,229 @@
+/* fallback */
+/*@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v17/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}*/
+nav[role="navigation"] ul li a {
+    color: #444;
+}
+
+nav[role="navigation"] ul li a:hover {
+    color: #fff !important;
+    background: rgba(245, 124, 0, .8);
+}
+
+#nav-mobile li a {
+    color:rgba(245, 124, 0, .8);
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 110%;
+    font-weight: 700; 
+}
+
+.pousada-simbolo {
+    margin: 1rem 0;
+    background: transparent url(../img/_ornamento.png) no-repeat bottom center;
+    background-size: content;
+}
+
+#orange-glass {
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(245, 124, 0, .45);
+}
+
+#teal-glass {
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(77, 182, 172, .65);
+}
+
+p {
+    line-height: 2rem;
+}
+
+.justify-align {
+    text-align: justify;
+}
+
+.m-bottom {
+    margin-bottom: 3rem;
+}
+
+.button-collapse {
+    color: #ef6c00;
+}
+
+.parallax-container {
+    min-height: 28rem;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+    text-shadow: 1px 1px 1px #333;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.parallax-container .section h5 {
+    padding-top: 15rem;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+
+/********** Navigation Bar *************/
+
+#logo-container {
+    bottom: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+#logo-container figure {
+    overflow: hidden;
+    margin: 0;
+}
+
+#logo-container figure img {
+    display: block;
+    float: left;
+    width: 50px;
+    margin: .45rem .75rem 0 0;
+}
+
+#logo-container figure figcaption {
+    display: block;
+    float: right;
+    font-size: 40%;
+    padding: 1rem 0 0 0;
+    margin: 0;
+    color: #f98b40;
+    line-height: 1rem;
+}
+
+#logo-container figure figcaption span {
+    font-size: 125%;
+    font-weight: 500;
+}
+
+
+/********** Form Reserva *************/
+
+.icon-block .input-field input[type="text"] {
+    color: #333;
+    font-size: 80%;
+}
+
+
+/********** Footer *************/
+
+.page-footer .container {
+    min-width: 87.5%;
+}
+
+.footer-copyright img {
+    margin-bottom: -.2rem;
+}
+
+
+/********** Map *************/
+
+#localizacao .input-field label {
+    color: white;
+}
+
+#localizacao .input-field input[type="text"] {
+    border-color: white;
+    color: white;
+}
+
+#mapview {
+    display: none;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+div[jstcache],
+td[jstcache] {
+    color: white;
+}
+
+td.adp-text[jstcache] {
+    color: #333;
+}
+
+table.adp-placemark {
+    color: #333;
+    background: rgb(255, 255, 255);
+}
+
+
+/********** Media screen *************/
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+    .page-footer .container {
+        min-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo-container figure img {
+        margin: .25rem auto;
+        float: none;
+    }
+    #logo-container figure figcaption {
+        display: none;
+    }
+    #index-banner .section {
+        top: 0;
+    }
+}

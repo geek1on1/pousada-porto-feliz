@@ -1,0 +1,22 @@
+{
+  "name": "pousadaportoalegre.com.br",
+  "authors": [
+    "Paulo Goes <geek1on1@gmail.com>"
+  ],
+  "description": "Frontend do website da Pousada Porto Alegre",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "Materialize": "materialize#^0.97.6"
+  }
+}
